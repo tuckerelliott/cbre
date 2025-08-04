@@ -30,7 +30,7 @@
   --text-color: black;
   --background-color: #ffffff;
   --overlay-background-color: #eeeeee;
-  --highlight-background-color: #cccccc;
+  --highlight-background-color: #435254;
   --background-color-light: #a5610f;
 
   /* fonts */
@@ -39,7 +39,7 @@
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
-  --body-font-size-m: 22px;
+  --body-font-size-m: 1rem;
   --body-font-size-s: 18px;
   --body-font-size-xs: 16px;
   --body-font-size-xxl: 13px;
@@ -239,7 +239,8 @@ main .section {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--light-color);
+  background-color: #435254;
+  color: #FFF;
 }
 
 ol {
